@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A7CEFFB8B0A4F58BBFAC3E79 /* Pods_ListTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5D3884AB3EEFFD70ADC2BC /* Pods_ListTest.framework */; };
 		B2D0326A2379ADEF0014AC19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D032692379ADEF0014AC19 /* AppDelegate.swift */; };
-		B2D0326C2379ADEF0014AC19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D0326B2379ADEF0014AC19 /* SceneDelegate.swift */; };
 		B2D0326E2379ADEF0014AC19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D0326D2379ADEF0014AC19 /* ViewController.swift */; };
 		B2D032712379ADEF0014AC19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D0326F2379ADEF0014AC19 /* Main.storyboard */; };
 		B2D032732379ADF00014AC19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2D032722379ADF00014AC19 /* Assets.xcassets */; };
@@ -21,7 +20,6 @@
 		607638BBF6CB63B6AB8E5054 /* Pods-ListTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListTest.release.xcconfig"; path = "Target Support Files/Pods-ListTest/Pods-ListTest.release.xcconfig"; sourceTree = "<group>"; };
 		B2D032662379ADEF0014AC19 /* ListTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D032692379ADEF0014AC19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B2D0326B2379ADEF0014AC19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B2D0326D2379ADEF0014AC19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B2D032702379ADEF0014AC19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2D032722379ADF00014AC19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				B2D032692379ADEF0014AC19 /* AppDelegate.swift */,
-				B2D0326B2379ADEF0014AC19 /* SceneDelegate.swift */,
 				B2D0326D2379ADEF0014AC19 /* ViewController.swift */,
 				B2D0326F2379ADEF0014AC19 /* Main.storyboard */,
 				B2D032722379ADF00014AC19 /* Assets.xcassets */,
@@ -80,7 +77,6 @@
 				C871ECDE4774DCBCAF07A0B2 /* Pods-ListTest.debug.xcconfig */,
 				607638BBF6CB63B6AB8E5054 /* Pods-ListTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -209,7 +205,6 @@
 			files = (
 				B2D0326E2379ADEF0014AC19 /* ViewController.swift in Sources */,
 				B2D0326A2379ADEF0014AC19 /* AppDelegate.swift in Sources */,
-				B2D0326C2379ADEF0014AC19 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
