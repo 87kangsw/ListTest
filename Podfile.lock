@@ -16,6 +16,7 @@ PODS:
     - RxSwift (~> 5)
   - RxSwift (5.0.1)
   - SnapKit (5.0.1)
+  - SwiftyBeaver (1.8.3)
   - Then (2.6.0)
 
 DEPENDENCIES:
@@ -25,6 +26,7 @@ DEPENDENCIES:
   - RxDataSources
   - RxSwift
   - SnapKit
+  - SwiftyBeaver
   - Then
 
 SPEC REPOS:
@@ -37,6 +39,7 @@ SPEC REPOS:
     - RxRelay
     - RxSwift
     - SnapKit
+    - SwiftyBeaver
     - Then
 
 SPEC CHECKSUMS:
@@ -48,8 +51,9 @@ SPEC CHECKSUMS:
   RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
   RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftyBeaver: 3d3e93a12d648bd400b6f2948a7ef128b5b183c7
   Then: 90cd104fd951cec1980a03f57704ad8f784d4d79
 
-PODFILE CHECKSUM: 8e86edbfa203a4da21fe4f30605a4fb7ce3b088b
+PODFILE CHECKSUM: dd65db18485f35a0014c79264fd22ccbbdc31f30
 
 COCOAPODS: 1.8.4

@@ -7,11 +7,12 @@ target 'ListTest' do
 
   # Pods for ListTest
     pod 'ReactorKit'
-    pod 'SnapKit'
     pod 'RxSwift'
     pod 'RxCocoa'
     pod 'RxDataSources'
     pod 'ReusableKit'
+    pod 'SnapKit'
     pod 'Then'
+    pod 'SwiftyBeaver'
     
 end
